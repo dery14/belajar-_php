@@ -2,7 +2,7 @@
 if(!isset($_GET['nama']) ||
 !isset($_GET['kota']) ||
 !isset($_GET['no_telp']) ){
-    header("Location: getpose.php");
+    header("Location: getpost.php");
     exit;
 }
 ?>
